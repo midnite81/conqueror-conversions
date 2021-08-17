@@ -120,6 +120,13 @@
                 from the United Kingdom.
             </p>
             <p class="max-w-xl mt-1 mx-auto text-sm text-gray-400 text-bold">
+                The
+                <a href="https://github.com/midnite81/conqueror-conversions" class="text-blue-400" target="_blank">
+                    source code
+                </a>
+                can be viewed on github
+            </p>
+            <p class="max-w-xl mt-1 mx-auto text-sm text-gray-400 text-bold">
                 This is not an official Conqueror Challenges application.
             </p>
             <div class="max-w-xl mt-1 mb-3 mx-auto text-sm text-gray-400 text-normal">
@@ -190,7 +197,7 @@ export default {
         },
 
         checkIsNumber() {
-            this.duration = this.duration.replace(/\D/g,'');
+            this.duration = this.duration.replace(/\D/g, '');
         }
     }
 }
