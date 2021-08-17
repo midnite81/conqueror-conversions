@@ -41,6 +41,7 @@
                     <div class="mt-1">
                         <input id="duration" name="duration" type="text" pattern="\d*" maxlength="5"
                                v-model="duration"
+                               v-on:keyup="checkIsNumber"
                                required
                                class="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md
                                    shadow-sm placeholder-gray-400 focus:outline-none focus:ring-indigo-500
@@ -187,6 +188,10 @@ export default {
             this.duration = '';
             this.selectedActivity = 0;
         },
+
+        checkIsNumber() {
+            this.duration = this.duration.replace(/\D/g,'');
+        }
     }
 }
 </script>
