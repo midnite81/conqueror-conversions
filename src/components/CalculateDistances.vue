@@ -114,7 +114,7 @@
 
         <div class="mt-8 w-full sm:mx-auto text-center">
             <p class="max-w-xl mt-5 mx-auto text-sm text-gray-400 text-bold">
-                Converter made by <a href="https://centralblue.co.uk/" class="text-blue-400" target="_blank">Simon
+                Converter made by <a href="https://midnite.uk/" class="text-blue-400" target="_blank">Simon
                 Rogers</a>,
                 a <a href="https://github.com/midnite81" class="text-blue-400" target="_blank">software engineer</a>,
                 from the United Kingdom.
